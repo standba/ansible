@@ -11,3 +11,4 @@
   - name: install tmux package
     apt:
       name: tmux
+      state: latest
