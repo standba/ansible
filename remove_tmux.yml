@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install tmux package
+    apt:
+      name: tmux
+      state: absent
